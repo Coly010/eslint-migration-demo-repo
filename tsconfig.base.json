@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@eslintorg/bar": ["bar/src/index.ts"],
+      "@eslintorg/baz": ["baz/src/index.ts"],
+      "@eslintorg/foo": ["foo/src/index.ts"],
+      "@eslintorg/legacy": ["legacy/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,12 @@
+{
+  "name": "legacy",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "legacy/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint"
+    }
+  },
+  "tags": []
+}
